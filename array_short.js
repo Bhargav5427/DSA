@@ -58,32 +58,32 @@
 // }
 // console.log(arr);
 
-let a = [1, 3, 5];
-let b = [2, 4, 6];
-let merged = [];
+// let a = [1, 3, 5];
+// let b = [2, 4, 6];
+// let merged = [];
 
-let i = 0;
-let j = 0;
-let k = 0;
+// let i = 0;
+// let j = 0;
+// let k = 0;
 
-while (i < a.length && j < b.length) {
-    if (a[i] < b[j]) {
-        merged[k] = a[i];
-        i++;
-    } else {
-        merged[k] = b[j];
-        j++;
-    }
-    k++;
-}
-while (i < a.length) {
-    merged[k] = a[i];
-    i++;
-    k++;
-}
-while (j < b.length) {
-    merged[k] = b[j];
-    j++;
-    k++;
-}
-console.log(merged); 
+// while (i < a.length && j < b.length) {
+//     if (a[i] < b[j]) {
+//         merged[k] = a[i];
+//         i++;
+//     } else {
+//         merged[k] = b[j];
+//         j++;
+//     }
+//     k++;
+// }
+// while (i < a.length) {
+//     merged[k] = a[i];
+//     i++;
+//     k++;
+// }
+// while (j < b.length) {
+//     merged[k] = b[j];
+//     j++;
+//     k++;
+// }
+// console.log(merged); 

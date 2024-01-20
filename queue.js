@@ -49,7 +49,8 @@ data.push(4)
 data.push(5)
 
 // pop method
-data.shift()
+data.shift()         
+data.shift()         
 
 
 
